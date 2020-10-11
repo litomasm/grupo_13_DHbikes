@@ -1,0 +1,14 @@
+{
+  "name": "dhbikes",
+  "version": "1.0.0",
+  "description": "Página web de DH bikes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
