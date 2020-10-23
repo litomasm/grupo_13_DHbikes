@@ -11,47 +11,50 @@
 <body>
     <header>
         <div class="primerdiv">
-        <div class="iconosHeader">
-    <i class="fab fa-whatsapp"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-facebook"></i>
-    <i class="far fa-envelope"></i>
-    
+            <div class="iconosHeader">
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+        
+            </div>
+            <div class="divHeader">
+                <a href="ingreso"><button class="botonesHeader" type="submit">Acceder</button></a>
+                <a href="registro"><button class="botonesHeader" type="submit">Crear Cuenta</button></a>
+            </div>
         </div>
-        <div class="divHeader">
-    <a href="#"><button class="botonesHeader" type="button">Acceder</button></a>
-    <a href="#"><button class="botonesHeader" type="button">Crear Cuenta</button></a>
-        </div>
-    </div>
 
         <hr>
-        <div class="segundodiv">
+        <div class="segundodiv" style="background-image:url(images/banner.jpg)">
        
-    <img id="logo" src="images/logo.png" alt="logo" width=25% height="200px">                      
+            <img id="logo" src="images/logo.png" alt="logo" width=25% height="200px">                      
 
-    <div class="menu">
-    
-        <a href="#" id="home"><i class="fas fa-home"></i>Home |</a>
-        <a href="#" id="productos">Productos |</a>
-        <a href="#" id="contacto">Contacto</a> <br> <br>
-        
-        <input type="text" name="busqueda" id="busqueda"  placeholder="Buscá la bicicleta o accesorio que necesitás"> <a href="#"><i class="fas fa-search"></i></a>
-    </div>
+            <i class="fas fa-bars"></i>
+            <div class="menu">
                 
-    <div id="carrito">
-        <a href="#"><i class="fas fa-shopping-cart"></i>Carrito</a>  
-    </div>
-</div>
-    </header>
+                <a href="/" id="home"><i class="fas fa-home"></i>Home |</a>
+                <a href="producto" id="productos">Productos |</a>
+                <a href="#" id="contacto">Contacto  |</a> 
+                <a href="#" id="nosotros">Sobre Nosotros</a><br> <br>
+                
+                <input type="text" name="busqueda" id="busqueda"  placeholder="Buscá la bicicleta o accesorio que necesitás"> <a href="#"><i class="fas fa-search"></i></a>
+            </div>
+                
+            <div id="carrito">
+                <a href="#"><i class="fas fa-heart"></i> | </a>
+                <a href="carrito"><i class="fas fa-shopping-cart"></i>Carrito</a>  
+            </div>
+        </div>
+</header> 
 <main>
     <hr>
     <h2>Mi Carrito</h2>
     <hr>
     <section>
-    <table width=100%>
+    <table class="anchotabla">
     <thead>
         <tr>
-        <th width=30%>
+        <th >
             <span>Producto</span>
         </th>
         <th>
