@@ -161,5 +161,25 @@ hr{
     display: flex;
     flex-wrap: wrap;
 }
-  
 
+.descuento{
+    width: 20%;
+    display: inline;
+    padding-top: 5px;
+    color:#34495E;
+    padding-left: 75px;
+}
+
+.totalcarrito{
+    width: 100%;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.totalcarrito2{
+    border: 2px solid rgb(133, 121, 121);
+    line-height: 32px;
+    float: right;
+    position: relative;
+}

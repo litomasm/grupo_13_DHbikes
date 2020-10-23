@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DH bikes</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="primerdiv">
+        <div class="iconosHeader">
+    <i class="fab fa-whatsapp"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="far fa-envelope"></i>
+    
+        </div>
+        <div class="divHeader">
+    <a href="#"><button class="botonesHeader" type="button">Acceder</button></a>
+    <a href="#"><button class="botonesHeader" type="button">Crear Cuenta</button></a>
+        </div>
+    </div>
+
+        <hr>
+        <div class="segundodiv">
+       
+    <img id="logo" src="images/logo.png" alt="logo" width=25% height="200px">                      
+
+    <div class="menu">
+    
+        <a href="#" id="home"><i class="fas fa-home"></i>Home |</a>
+        <a href="#" id="productos">Productos |</a>
+        <a href="#" id="contacto">Contacto</a> <br> <br>
+        
+        <input type="text" name="busqueda" id="busqueda"  placeholder="Buscá la bicicleta o accesorio que necesitás"> <a href="#"><i class="fas fa-search"></i></a>
+    </div>
+                
+    <div id="carrito">
+        <a href="#"><i class="fas fa-shopping-cart"></i>Carrito</a>  
+    </div>
+</div>
+    </header>
+<main>
+    <hr>
+    <h2>Mi Carrito</h2>
+    <hr>
+    <section>
+    <table width=100%>
+    <thead>
+        <tr>
+        <th width=30%>
+            <span>Producto</span>
+        </th>
+        <th>
+            <span>Precio</span>
+        </th>
+        <th>
+            <span>Cantidad</span>
+        </th>
+        <th>
+            <span>Subtotal</span>
+        </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>
+                <img src="/images/bici1.jpg" alt="bicicleta1" width="160px" height="160px">
+            </th>
+            <th>
+                <span>AR$ 64.000</span>
+            </th>
+            <th>
+                <span><i class="far fa-minus-square"></i> 1 <i class="far fa-plus-square"></i></span>
+            </th>
+            <th>
+                <span>AR$ 64.000 <i class="fas fa-trash-alt"></i></span>
+            </th>
+        </tr>
+    </tbody>
+</table>
+</section>
+<div class="descuento">
+    <input type="text" name="codigo" id="codigo"  placeholder="Codigo de Descuento"> 
+    <a href="#"></a>
+    <a href="#"><button type="button">Aplicar Código</button></a>
+</div>
+<div class="totalcarrito">
+<table  class="totalcarrito2">
+    <thead>
+        <th colspan="2">Total del Carrito</th>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Sub Total</th>
+        <td>AR$ 64.000</td>
+    </tr>
+    <tr>
+        <th>Envio</th>
+        <td>Calcular Envio <i class="fas fa-truck"></i></td>
+    </tr>
+    <tr>
+        <th>Total</th>
+        <td>AR$ 64.000</td>
+    </tr>
+    <tr>
+        <th colspan="2"><a href="#"><button type="button">Finalizar Compra</button></a></th>
+    </tr>
+    </tbody>
+</table>
+</div>
+
+</main>
+
+<footer>
+    <hr>
+    <p>© 2020 DH BIKES</p> 
+</footer>
+</body>
+</html>
+
