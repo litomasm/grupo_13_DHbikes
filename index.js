@@ -26,3 +26,7 @@ app.get('/producto', (req, res) => {
 app.get('/carrito', (req, res) => {
     res.sendFile(__dirname + '/views/carrito.html')
 });
+
+app.get("/productDetail",(req, res)=>{
+    res.sendFile(__dirname + "/views/productDetail.html");
+});
