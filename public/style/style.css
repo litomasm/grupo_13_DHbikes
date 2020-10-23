@@ -2,8 +2,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
 .primerdiv{
     display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .botonesHeader{
@@ -64,24 +67,22 @@ body{
     
 }
 
-#logo{
-    display: inline-block;
-    margin-right: 12%;
-}
+
 
 .menu{
     
-    display: inline-block;
     border: 1px solid #34495E;
     background-color: #34495E ;
-    margin: auto;
     padding: 20px;
+    height: 100px;
+    left: 10px;
 }
 
 #busqueda{
     color:#34495E;
     width: 85%;
     padding-top: 5px;
+    margin-left: 20px;
     
     
 }
@@ -103,12 +104,18 @@ a{
 #carrito{
     
     border: 2px solid #34495E;
-    padding: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     background-color: #34495E ;
     border-radius: 10px 10px 10px 10px;
-    margin:auto;
-    float: right;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    
 }
+
 
 .fa-shopping-cart{
     border-radius: 5px;
@@ -117,6 +124,10 @@ a{
 .segundodiv{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    margin:0;
 }
 
 
@@ -125,8 +136,13 @@ h2{
     color: #34495E;
 }
 
+section{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
 article{
-    display: inline;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -155,11 +171,109 @@ hr{
     color: #34495E;
     margin: auto;
     font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.informacion i{
+    color: #B7950B;
 }
 
 .tercerdiv{
     display: flex;
     flex-wrap: wrap;
 }
-  
 
+h3{
+    color: #B7950B;
+    background-color: #34495E;
+    padding: 10px;
+}
+
+/* LOGIN */
+
+.mainlogin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  
+.formingreso{
+    border: 1px solid #34495E;
+    padding: 15px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 50%;
+}
+    
+
+#email{
+    width: 100%;
+    
+}
+
+#password{
+    width: 100%;
+}
+
+.formlogin{
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.formlogin #primeritem{
+    justify-content: left;
+}
+
+.formlogin #campos{
+    text-align: right;
+}
+
+
+#botoniniciar{
+   width: 50%;
+   background-color: #34495E;
+   border-radius: 10px 10px 10px 10px;
+   padding: 10px;
+   size: 20px;
+   color: #B7950B;
+   margin: auto;
+   display: block;
+}
+
+/* REGISTRO */
+
+.mainregistro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#nombre{
+    width: 100%;
+    
+}
+
+#apellido{
+    width: 100%;
+    
+}
+
+#suscribir{
+    padding: 15px;
+}
+
+#botonregistro{
+   width: 50%;
+   background-color: #34495E;
+   border-radius: 10px 10px 10px 10px;
+   padding: 10px;
+   size: 30px;
+   color: #B7950B;
+   margin: auto;
+   display: block;
+}
