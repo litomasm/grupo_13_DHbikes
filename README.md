@@ -20,3 +20,5 @@ https://www.hollywoodbikes.com.ar/
 https://www.probikes.com.ar/
 https://bicicleteriahobbymania.com.ar/
 https://www.sin-limite.com.ar/
+
+Enlace a tablero de Trello: https://trello.com/b/ikqlCmfZ
