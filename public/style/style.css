@@ -62,18 +62,24 @@ body{
     color: #34495E;
 }
 
-.fa-bars{
+.bars{
     display: none;
+}
+
+#logo{
+    width: 25%;
 }
 
 #categorias{
     border: 2px solid #34495E;
     width: 25%;
     margin-top: 30px;
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-bottom: 20px;
     box-sizing: border-box;
     color: #34495E;
     margin: auto;
+    box-sizing: border-box;
     
 }
 
@@ -86,6 +92,10 @@ body{
     padding: 20px;
     height: 100px;
     left: 10px;
+    box-sizing: border-box;
+    margin-left:50px;
+    
+    
 }
 
 #busqueda{
@@ -93,7 +103,8 @@ body{
     width: 85%;
     padding-top: 5px;
     margin-left: 20px;
-    
+    margin-bottom: 10px;
+    box-sizing: border-box;
     
 }
 
@@ -112,24 +123,16 @@ a{
 }
 
 #carrito{
-    
-    border: 2px solid #34495E;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    background-color: #34495E ;
+    width:15px;
+    background-color:#34495E;
     border-radius: 10px 10px 10px 10px;
-    height: 25px;
-    vertical-align: middle;
-    margin-right: 10px;
-    
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 
-.fa-shopping-cart{
-    border-radius: 5px;
-}
 
 .segundodiv{
     display: flex;
@@ -137,14 +140,17 @@ a{
     justify-content: space-between;
     align-items: center;
     background-size: cover;
-    margin:0;
+    margin: 0px;
+    box-sizing: border-box;
+    
 }
-
 
 h2{
     text-align: center;
     color: #34495E;
+    width: 100%;
 }
+
 
 section{
 display: flex;
@@ -226,6 +232,8 @@ h3{
     color: #B7950B;
     background-color: #34495E;
     padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
 }
 
 /* LOGIN */
@@ -284,10 +292,6 @@ h3{
 }
 
 /* Cuerpo principal  */
-h2{
-    text-align: center;
-    color: #34495E;
-}
 
 #producto {
     display:flex;
@@ -365,12 +369,46 @@ th{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.formregister{
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+  
+.formregistro{
+    border: 1px solid #34495E;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+    
+
 #nombre{
     width: 100%;
     
 }
 
 #apellido{
+    width: 100%;
+    
+}
+
+#mail{
+    width: 100%;
+    
+}
+
+#password3{
+    width: 100%;
+    
+}
+
+#password4{
     width: 100%;
     
 }
@@ -388,6 +426,11 @@ th{
    color: #B7950B;
    margin: auto;
    display: block;
+}
+
+h4{
+    color:#34495E;
+    text-align: center;
 }
 
 /* RESPONSIVE */
@@ -449,24 +492,18 @@ th{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
 
-.fa-bars{
+.bars{
     display: flex;
     border: 2px solid #34495E;
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
     background-color: #34495E;
     border-radius: 10px 10px 10px 10px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 10px;
-    size: 5px;
     color: #B7950B;
-    width: 30px;
     text-align: center;
+    padding: 10px;
+    
 }
 
 .menu{
@@ -477,24 +514,32 @@ th{
 #carrito{
     
     border: 2px solid #34495E;
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
     background-color: #34495E ;
     border-radius: 10px 10px 10px 10px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 10px;
-    size: 5px;
-    
+    position: relative;
+    width:15%;
+}
+
+#corazon{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    position: relative;
+}
+
+#carritodibujo{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 5px;
+    position: relative;
 }
 
 #categorias{
     
     width: 100%;
-    
-    
+        
 }
 
 #promo{
@@ -514,15 +559,35 @@ text-align: center;
 
 }
 
-@media(min-width: 375px){
-    .descuento{
-        padding-left: 0px;
-        width: 100%;
-        display: block;
-        margin: auto;
+@media(min-width: 400px){
+    #carrito{
+    
+        border: 2px solid #34495E;
+        background-color: #34495E ;
+        border-radius: 10px 10px 10px 10px;
+        position: relative;
+        width:20%;
     }
-
-    .totalcarrito2{
-        float:center;
+    
+    #corazon{
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        padding-right: 0px;
+        position: relative;
+    }
+    
+    #carritodibujo{
+        padding-top:2px;
+        padding-bottom: 2px;
+        padding-left: 0px;
+        padding-right: 2px;
+        position: relative;
+    }
+    .interesar{
+        justify-content: center;
+    }
+    .marcas{
+        justify-content: center;
     }
 }
