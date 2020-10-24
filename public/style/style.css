@@ -6,6 +6,10 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
 }
 
 
@@ -73,16 +77,17 @@ body{
 #categorias{
     border: 2px solid #34495E;
     width: 25%;
-    margin-top: 30px;
-    padding-left: 30px;
     padding-bottom: 20px;
     box-sizing: border-box;
     color: #34495E;
     margin: auto;
-    box-sizing: border-box;
-    
+       
 }
 
+ul li{
+    position: relative;
+    left:25px;
+}
 
 
 .menu{
@@ -97,7 +102,10 @@ body{
     
     
 }
-
+.search{
+    display: none;
+    width:25%;
+}
 #busqueda{
     color:#34495E;
     width: 85%;
@@ -182,7 +190,6 @@ hr{
     border: 2px solid #34495E;
     width: 15%;
     margin-top: 30px;
-    padding-left: 10px;
     box-sizing: border-box;
     color: #34495E;
     margin: auto;
@@ -232,8 +239,10 @@ h3{
     color: #B7950B;
     background-color: #34495E;
     padding: 10px;
-    margin-bottom: 5px;
+    margin: 0px;
     width: 100%;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 /* LOGIN */
@@ -436,6 +445,14 @@ h4{
 /* RESPONSIVE */
 
 @media(max-width: 850px){
+   
+    body{
+        width: 100vw;
+        position: absolute;
+        box-sizing: border-box;
+        margin:0px;       
+    }
+
     .primerdiv{
         display: flex;
         flex-wrap: wrap;
@@ -520,21 +537,8 @@ h4{
     width:15%;
 }
 
-#corazon{
-    padding-top:5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 0px;
-    position: relative;
-}
 
-#carritodibujo{
-    padding-top:5px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-    padding-right: 5px;
-    position: relative;
-}
+
 
 #categorias{
     
@@ -560,6 +564,13 @@ text-align: center;
 }
 
 @media(min-width: 400px){
+    body{
+        width: 100vw;
+        position: absolute;
+        box-sizing: border-box;
+        margin:0px;
+    }
+
     #carrito{
     
         border: 2px solid #34495E;
@@ -569,21 +580,6 @@ text-align: center;
         width:20%;
     }
     
-    #corazon{
-        padding-top:2px;
-        padding-bottom: 2px;
-        padding-left: 2px;
-        padding-right: 0px;
-        position: relative;
-    }
-    
-    #carritodibujo{
-        padding-top:2px;
-        padding-bottom: 2px;
-        padding-left: 0px;
-        padding-right: 2px;
-        position: relative;
-    }
     .interesar{
         justify-content: center;
     }
