@@ -606,8 +606,8 @@ text-align: center;
 
 @media(min-width: 400px){
     body{
-        width: 100vw;
-        position: absolute;
+        width: 100%;
+        position: relative;
         box-sizing: border-box;
         margin:0px;
     }
