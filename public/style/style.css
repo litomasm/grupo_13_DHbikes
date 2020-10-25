@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
     position: absolute;
     right: 0;
@@ -230,11 +230,17 @@ hr{
     float: right;
     position: relative;
 }
-
-.anchotabla{
-    width: 100%;
+.art1{
+    width: 25%;
+    text-align: center;
+}
+.art3{
+    text-align: center;
 }
 
+.container{
+    line-height: 30px;
+}
 h3{
     color: #B7950B;
     background-color: #34495E;
